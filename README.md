@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample Rails 5 API only app that can be deployed to a Heroku environment.
 
-Things you may want to cover:
+Here's how to do that:
 
-* Ruby version
+* Make sure you have a Heroku account
 
-* System dependencies
+* Clone this repo to your computer `git clone https://github.com/dlbunker/ps-heroku-rails-sample.git`
 
-* Configuration
+* Open a terminal or command prompt and go to the root of the cloned project `cd ps-heroku-rails-sample`
 
-* Database creation
+* Login to Heroku `heroku login`
 
-* Database initialization
+* Create a Heroku app space `heroku create`
 
-* How to run the test suite
+* Deploy app to Heroku `git push heroku master`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Open a browser and go to your apps url, it will look something like this: (https://guarded-wave-47344.herokuapp.com/rivers)
